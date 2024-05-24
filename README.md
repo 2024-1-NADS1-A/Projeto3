@@ -127,3 +127,6 @@ Aqui estão as referências usadas no projeto.
 2. <https://blynk.io/blog/step-by-step-video-guide-to-making-your-first-project-on-the-new-blynk>
 3. <https://www.youtube.com/watch?v=ZQT8sIrXTnA>
 4. <https://blog.brkambiental.com.br/enchentes-no-brasil/>
+5. <https://www.crescerengenharia.com/post/monitorando-tanques-agua-esp32>
+6. <https://www.crescerengenharia.com/post/google-sheets-esp32-enviando-email-sms>
+7. <https://www.crescerengenharia.com/post/aprenda-como-usar-o-esp32-para-publicar-dados-no-google-sheets>
