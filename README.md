@@ -18,8 +18,8 @@
 </p>
 
 <p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Projeto feito por <a href="">Anderson Fernandez</a>, <a href =""> Gustavo Castro </a>, <a>Kaique Neres</a>, <a>Jorge Ignacio</a>
+<img src="https://github.com/2024-1-NADS1-A/Projeto3/assets/164703668/e8346331-0ac0-41cd-8e7a-a6163d760798.png" alt="NOME DO JOGO" border="0">
+  Projeto feito por <a href="">Anderson Fernandez</a>, <a href =""> Gustavo Castro </a>, <a>Kaique Neres</a>, <a>Jorge Ignacio.</a>
 </p>
 
 
@@ -112,9 +112,8 @@ A cada atualização os detalhes devem ser lançados aqui.
     * MUDANÇA: Ajustes no código sobre o tipo de alerta e a distancia referenciada.
 * 0.1.0 - 10/05/2024
     * Os primeiros testes com o sensor ultrassonico, funcionando perfeitamente (@Anderson)
-    
-* 0.0.1 - 01/01/2022
-    * Trabalho em andamento
+* 0.0.1 - 03/05/2024
+    * Iniciando o trabalho
 
 ## 📋 Licença/License
 
