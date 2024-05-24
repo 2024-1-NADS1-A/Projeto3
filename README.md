@@ -49,8 +49,6 @@ Há também 4 pastas que seguem da seguinte forma:
 
 <b>documentos</b>: Toda a documentação estará nesta pasta.
 
-<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
-
 <b>imagens</b>: Imagens do sistema
 
 <b>src</b>: Pasta que contém o código fonte.
@@ -63,6 +61,8 @@ Há também 4 pastas que seguem da seguinte forma:
 
 - Sensor Ultrassonico HC-SR04<br>
 
+- Cabos Jumper Macho e Fêmea<br>
+
 - Cesto coletor<br>
 <h3>Softwares:</h3>
 
@@ -72,53 +72,47 @@ Há também 4 pastas que seguem da seguinte forma:
 
 ## 🛠 Instalação
 
-<b>Arduino IDE</b>
+<h2>Arduino IDE<h2>
 
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
+Instalar o Arduino IDE: Visite o site oficial do Arduino em www.arduino.cc e vá para a seção "Software". Escolha a versão adequada do Arduino IDE para o seu sistema operacional (Windows, Mac, Linux) e faça o download do instalador. Depois de baixar o arquivo, execute-o e siga as instruções do instalador para concluir o processo de instalação.<br>
 
-```sh
-Coloque código do prompt de comnando se for necessário
-```
+Instalar o suporte ao ESP32 no Arduino IDE: Após instalar o Arduino IDE, abra-o e vá para o menu "File" -> "Preferences". Na janela de preferências, cole o seguinte URL no campo "Additional Board Manager URLs": https://dl.espressif.com/dl/package_esp32_index.json. Clique em "OK" para fechar a janela. 
+Em seguida, vá para o menu "Tools" -> "Board" -> "Boards Manager...". Na caixa de pesquisa, digite "ESP32" e instale o pacote "esp32" desenvolvido pela Espressif Systems.<br>
 
-<b>Blynk:</b>
+Selecionar o ESP32 como placa: Com o suporte do ESP32 instalado, vá para o menu "Tools" -> "Board" e selecione a placa "ESP32 Dev Module".<br>
 
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
+Conectar o ESP32 ao computador: Conecte o ESP32 ao seu computador usando um cabo USB. Certifique-se de que o driver USB correto seja instalado automaticamente pelo sistema operacional.<br>
 
-```sh
-Coloque código do prompt de comnando se for necessário
-```
+Verificar a porta serial: Vá para o menu "Tools" -> "Port" e selecione a porta serial que corresponde ao seu ESP32. Esta porta pode variar dependendo do sistema operacional e do número de dispositivos conectados.<br>
 
+<h2>Blynk:<h2>
 
-## 💻 Configuração para Desenvolvimento
+Crie uma conta no Blynk: Abra o aplicativo/site Blynk e crie uma conta.
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
+Crie um novo projeto: Após fazer login, clique em "Novo Projeto" e dê um nome ao seu projeto. Selecione o tipo de conexão que você usará (Wi-Fi, Bluetooth, etc.) e o dispositivo que você está usando (ESP32, Arduino, Raspberry Pi, etc.).<br>
 
-Para abrir este projeto você necessita das seguintes ferramentas:
+Obtenha seu Token de Autenticação: Após criar o projeto, você receberá um Token de Autenticação via e-mail. Este token é necessário para conectar o seu dispositivo ao projeto no aplicativo Blynk.<br>
 
--<a href="https://godotengine.org/download">GODOT</a>
+Configure o hardware: No seu dispositivo (como o ESP32), instale a biblioteca Blynk no Arduino IDE, como mencionado anteriormente. Use o Token de Autenticação recebido para configurar o código do seu dispositivo para se conectar ao projeto no Blynk.<br>
 
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
-```
+Conecte o dispositivo ao projeto: No código do seu dispositivo, insira o Token de Autenticação e as configurações de conexão Wi-Fi. Faça o upload do código para o seu dispositivo.<br>
+
+Visualize e controle seu dispositivo: Arraste e solte os widgets desejados na tela do projeto para controlar e visualizar seu dispositivo remotamente.<br>
+
+Teste e ajuste:  Se necessário, faça ajustes no código ou no layout do aplicativo para atender às suas necessidades.
+
 
 ## 🗃 Histórico de lançamentos
 
 A cada atualização os detalhes devem ser lançados aqui.
 
-* 0.2.1 - 25/01/2022
-    * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-* 0.2.0 - 15/01/2022
-    * MUDANÇA: Remove `setDefaultXYZ()`
-    * ADD: Adiciona `init()`
-* 0.1.1 - 11/01/2022
-    * CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
-* 0.1.0 - 10/01/2022
-    * O primeiro lançamento adequado
-    * MUDANÇA: Renomeia `foo()` para `bar()`
+* 0.2.1 - 23/01/2024
+    * MUDANÇA: Alteramos o Cesto e projeto finalizado no github
+* 0.2.0 - 17/05/2024
+    * MUDANÇA: Ajustes no código sobre o tipo de alerta e a distancia referenciada.
+* 0.1.0 - 10/05/2024
+    * Os primeiros testes com o sensor ultrassonico, funcionando perfeitamente (@Anderson)
+    
 * 0.0.1 - 01/01/2022
     * Trabalho em andamento
 
@@ -130,8 +124,7 @@ A cada atualização os detalhes devem ser lançados aqui.
 
 Aqui estão as referências usadas no projeto.
 
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
-3. <https://creativecommons.org/share-your-work/>
-4. <https://freesound.org/>
-5. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+1. <https://docs.arduino.cc/tutorials/projects/control-your-iot-cloud-kit-via-blynk/>
+2. <https://blynk.io/blog/step-by-step-video-guide-to-making-your-first-project-on-the-new-blynk>
+3. <https://www.youtube.com/watch?v=ZQT8sIrXTnA>
+4. <https://blog.brkambiental.com.br/enchentes-no-brasil/>
