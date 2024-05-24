@@ -4,28 +4,29 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Nome do Projeto
+# Bueiro Inteligente 
 
-## Nome do Grupo
+## Em busca de 
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Goku Sayajin</a>, <a href="https://www.linkedin.com/in/victorbarq/">Saitama One</a>, <a href="https://www.linkedin.com/in/victorbarq/">Ikki de Fenix</a>, <a href="https://www.linkedin.com/in/victorbarq/">Yusuke Urameshi</a>, <a href="https://www.linkedin.com/in/victorbarq/">Roronoa Zoro</a>
+## Integrantes: <a href="https://www.linkedin.com/in/anderson-fernandez-2aa13924b/">Anderso Yavi Fernandez</a>, <a href="https://www.linkedin.com/in/gustavocastro01/">Gustavo de Souza Castro</a>, <a href="">Kaique Neres de Oliveira</a>, <a href="">Jorge Augusto Lourenço Ignacio. </a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rosetti de Quiroz</a>, <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Valente </a>
 
 ## Descrição
+<p>
+  Criar um sistema de monitoramento em tempo real capaz de identificar o nível de resíduos presentes nos bueiros. Dessa forma, sendo possível evitar alagamentos e enchentes nas cidades
+</p>
 
 <p align="center">
 <img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+  Projeto feito por <a href="">Anderson Fernandez</a>, <a href =""> Gustavo Castro </a>, <a>Kaique Neres</a>, <a>Jorge Ignacio</a>
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
-<br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
-<br><br>
-May the force be with you!
-<br><br>
+Sobre o projeto
+<p>Em São Paulo, são produzidas cerca de 20 mil toneladas de lixo por dia. Durante as chuvas, parte desse lixo é arrastado para bueiros, rios e córregos, sendo um dos principais causadores de alagamentos na cidade. Nosso projeto visa resolver este problema de bueiros entupidos utilizando um cesto com um sensor embutido. 
+  
+Este sensor será capaz de monitorar a evasão de água e calcular o volume de resíduos nos bueiros. Quando o bueiro estiver cheio, o sistema enviará um alerta para as equipes de limpeza, permitindo a intervenção antes que ocorra um alagamento. Esperamos que este sistema seja implementado de forma eficiente e utilizado com sucesso na cidade de São Paulo.
 
 ## 🛠 Estrutura de pastas
 
@@ -34,14 +35,10 @@ May the force be with you!
 |-->documentos<br>
   &emsp;|-->antigos<br>
   &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
+|-->executáveis<br>``
 |-->imagens<br>
 |-->src<br>
-  &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
+ 
 |readme.md<br>
 
 A pasta raiz contem dois arquivos que devem ser alterados:
@@ -57,10 +54,25 @@ Há também 4 pastas que seguem da seguinte forma:
 <b>imagens</b>: Imagens do sistema
 
 <b>src</b>: Pasta que contém o código fonte.
+## 🛠 Ferramentas Utilizadas 
+<h3>Equipamentos:</h3>
+
+- Protoboard<br>
+
+- Esp32<br>
+
+- Sensor Ultrassonico HC-SR04<br>
+
+- Cesto coletor<br>
+<h3>Softwares:</h3>
+
+- Arduino IDE<br>
+  
+- Blynk<br>
 
 ## 🛠 Instalação
 
-<b>Android:</b>
+<b>Arduino IDE</b>
 
 Faça o Download do JOGO.apk no seu celular.
 Execute o APK e siga as instruções de seu telefone.
@@ -69,7 +81,7 @@ Execute o APK e siga as instruções de seu telefone.
 Coloque código do prompt de comnando se for necessário
 ```
 
-<b>Windows:</b>
+<b>Blynk:</b>
 
 Não há instalação! Apenas executável!
 Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
@@ -78,10 +90,6 @@ Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro progra
 Coloque código do prompt de comnando se for necessário
 ```
 
-<b>HTML:</b>
-
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
 
 ## 💻 Configuração para Desenvolvimento
 
