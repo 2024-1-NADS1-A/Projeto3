@@ -6,7 +6,7 @@
 
 # Bueiro Inteligente 
 
-## Em busca de 
+## Em busca de estágio 
 
 ## Integrantes: <a href="https://www.linkedin.com/in/anderson-fernandez-2aa13924b/">Anderso Yavi Fernandez</a>, <a href="https://www.linkedin.com/in/gustavocastro01/">Gustavo de Souza Castro</a>, <a href="">Kaique Neres de Oliveira</a>, <a href="">Jorge Augusto Lourenço Ignacio. </a>
 
